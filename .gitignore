@@ -1,0 +1,27 @@
+# Dependency directory
+node_modules/
+
+# Hardhat artifacts
+artifacts/
+cache/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+
+# Deployments (tracked separately or in CI)
+# deployments/ — uncomment if you want to check in deployment addresses
+
+# Exports (generated)
+exports/
+
+# Environment variables
+.env
+
+# Editor
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
