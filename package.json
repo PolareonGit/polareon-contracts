@@ -1,13 +1,13 @@
 {
   "name": "polareon-contracts",
   "version": "1.0.0",
-  "description": "Polareon Token Pool smart contracts — ERC-20 pool management on Base L2",
+  "description": "Polareon smart contracts — ERC-20 token pool & USDC prize vault on Base L2",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PolareonGit/polareon-contracts.git"
   },
-  "keywords": ["solidity", "erc20", "base", "token-pool"],
+  "keywords": ["solidity", "erc20", "base", "token-pool", "vault", "uups"],
   "author": "Polareon",
   "license": "MIT",
   "bugs": {
@@ -17,11 +17,17 @@
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
+    "test:pool": "hardhat test test/PolareonTokenPool.test.ts",
+    "test:vault": "hardhat test test/PolareonVault.test.ts",
     "test:coverage": "hardhat coverage",
-    "deploy:sepolia": "hardhat run scripts/deploy.ts --network baseSepolia",
-    "deploy:base": "hardhat run scripts/deploy.ts --network base",
-    "upgrade:sepolia": "hardhat run scripts/upgrade.ts --network baseSepolia",
-    "upgrade:base": "hardhat run scripts/upgrade.ts --network base",
+    "deploy:pool:sepolia": "hardhat run scripts/deploy.ts --network baseSepolia",
+    "deploy:pool:base": "hardhat run scripts/deploy.ts --network base",
+    "deploy:vault:sepolia": "hardhat run scripts/deploy-vault.ts --network baseSepolia",
+    "deploy:vault:base": "hardhat run scripts/deploy-vault.ts --network base",
+    "upgrade:pool:sepolia": "hardhat run scripts/upgrade.ts --network baseSepolia",
+    "upgrade:pool:base": "hardhat run scripts/upgrade.ts --network base",
+    "upgrade:vault:sepolia": "hardhat run scripts/upgrade-vault.ts --network baseSepolia",
+    "upgrade:vault:base": "hardhat run scripts/upgrade-vault.ts --network base",
     "verify:sepolia": "hardhat run scripts/verify.ts --network baseSepolia",
     "verify:base": "hardhat run scripts/verify.ts --network base",
     "export-abi": "hardhat run scripts/export-abi.ts",
