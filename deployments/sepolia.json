@@ -1,0 +1,11 @@
+{
+  "network": "sepolia",
+  "chainId": "11155111",
+  "proxy": "0xAFb706338CF9B855b81c995d034dAB5C5Fe84a0f",
+  "implementation": "0x88b0Bcf531E1375657d8861C61b9971273549e8b",
+  "owner": "0xF596595f0849F65e3C78B23E856855B0CcefCfc2",
+  "operator": "0xF596595f0849F65e3C78B23E856855B0CcefCfc2",
+  "deployer": "0xF596595f0849F65e3C78B23E856855B0CcefCfc2",
+  "deployedAt": "2026-03-11T14:13:48.396Z",
+  "blockNumber": 10427170
+}

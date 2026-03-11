@@ -1,0 +1,13 @@
+{
+  "contract": "PolareonVault",
+  "network": "sepolia",
+  "chainId": "11155111",
+  "proxy": "0xfc553d579a43f135d032E9E2151a309A4D19A683",
+  "implementation": "0x5384285b54d58a266Fc7762Fc53bA49F5777e794",
+  "owner": "0xF596595f0849F65e3C78B23E856855B0CcefCfc2",
+  "operator": "0xF596595f0849F65e3C78B23E856855B0CcefCfc2",
+  "token": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+  "deployer": "0xF596595f0849F65e3C78B23E856855B0CcefCfc2",
+  "deployedAt": "2026-03-11T14:14:12.734Z",
+  "blockNumber": 10427172
+}
